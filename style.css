@@ -1,0 +1,67 @@
+body{
+    background-color: pink;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table{
+    display: table;
+    padding: 70px 30px;
+    background-color: rgba(255, 159, 175, 0.8);
+    border: 2px solid black;
+    border-radius: 45px;
+    box-shadow: 50px;
+    height: auto;
+    width: 460px;
+    table-layout: fixed;
+    position: absolute;
+}
+
+button{
+    background-color: white;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2.5px solid rgb(191, 105, 119);
+    transition: transform 0.1s ease, background-color 0.1s ease;
+    position: relative;
+}
+
+.resultado{
+    margin-bottom: 40px;
+    width: 350px;
+    height: 70px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.pontinho{
+    margin-right: 0px;
+    width: 177px;
+    height: 80px;
+}
+
+.igual{
+    display: flex;
+    height: 160px;
+    width: 80px;
+}
+
+button:active{
+    transform: scale(0.9);
+    background-color: aliceblue;
+}
+
+.menos{
+    font-size: 45px;
+}
